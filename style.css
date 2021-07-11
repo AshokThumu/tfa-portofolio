@@ -1,0 +1,277 @@
+body,
+html {
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    font-family: 'Comfortaa', cursive;
+}
+
+ ::-webkit-scrollbar {
+    width: 0px;
+    background: transparent;
+}
+
+.row {
+    min-height: 100%;
+}
+
+.left {
+    background-color: white;
+    min-height: inherit;
+    width: 24%;
+    float: left;
+    position: fixed;
+    /* position: relative; */
+}
+
+.navigate a {
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    transition: .5s;
+    -webkit-transition: .5s;
+    -moz-transition: .5s;
+    -ms-transition: .5s;
+    -o-transition: .5s;
+}
+
+.navigate a:hover {
+    color: red;
+    font-size: 20px;
+}
+
+.navigate li {
+    margin: 16px 0;
+}
+
+.right {
+    width: 64%;
+    position: absolute;
+    left: 28%;
+}
+
+.pic {
+    width: 200px;
+    height: 200px;
+    border: 1px solid black;
+    border-radius: 20%;
+    display: block;
+    margin: 55px auto;
+    -webkit-border-radius: 20%;
+    -moz-border-radius: 20%;
+    -ms-border-radius: 20%;
+    -o-border-radius: 20%;
+}
+
+.navigate ol {
+    list-style-position: inside;
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.right h1 {
+    text-align: center;
+    font-family: 'Kalam', cursive;
+    font-size: 110px;
+    margin-bottom: -40px;
+    animation: name 13s .5s infinite;
+    -webkit-animation: name 13s .5s infinite;
+}
+
+@keyframes name {
+    0% {
+        color: skyblue;
+    }
+    15% {
+        color: steelblue;
+    }
+    25% {
+        color: sandybrown;
+    }
+}
+
+.right p {
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+    font-size: 17px;
+}
+
+.right h2 {
+    padding-top: 60px;
+    color: cadetblue;
+    text-align: center;
+    font-family: 'Comfortaa', cursive;
+}
+
+.icons {
+    display: table;
+    margin: 0 auto;
+    font-size: 40px;
+}
+
+.icons i {
+    margin: 0 8px;
+}
+
+.skText {
+    list-style-type: none;
+    font-family: 'Comfortaa', cursive;
+    position: relative;
+    left: 12%;
+    padding-left: 10px;
+}
+
+.skText li {
+    margin: 5px 0;
+    border-bottom: 1px solid #999;
+    padding: 12px 0;
+    width: 75%;
+}
+
+.skText li:last-child {
+    border: none;
+}
+
+.expDiv {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
+.expDiv div {
+    align-self: baseline;
+    margin-right: 25px;
+}
+
+.expDiv img {
+    border: 1px solid white;
+    border-radius: 5%;
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    -ms-border-radius: 5%;
+    -o-border-radius: 5%;
+}
+
+.expDiv div ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    list-style-position: inside;
+    font-size: 25px
+}
+
+.expDiv li {
+    margin: 10px 0;
+    font-size: 20px;
+}
+
+.eduDiv {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    margin: 70px 0;
+}
+
+.eduDiv div {
+    align-self: baseline;
+    margin-right: 25px;
+}
+
+.eduDiv i {
+    color: cadetblue;
+    display: table;
+    margin: 0 auto;
+    font-size: 150px;
+}
+
+.eduDiv div ul {
+    list-style-type: none;
+    padding-left: 0;
+    text-align: center;
+    list-style-position: inside;
+    font-size: 20px;
+    /* color: black; */
+}
+
+.eduDiv li {
+    margin: 10px 0;
+    font-size: 16px;
+    color: black;
+}
+
+.skText i {
+    float: right;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.email {
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 10px;
+}
+
+.email i {
+    font-size: 30px;
+    color: floralwhite;
+    background-color: lightskyblue;
+    text-align: center;
+    width: 60px;
+    padding: 5px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+
+.vertical-line {
+    width: 0.5px;
+    max-height: 100px;
+    padding: 2px;
+}
+
+.emailHide {
+    color: black;
+    display: inline-block;
+    margin: 0 0 4px 5px;
+    transition: 1s;
+    -webkit-transition: 1s;
+    -moz-transition: 1s;
+    -ms-transition: 1s;
+    -o-transition: 1s;
+}
+
+.phone {
+    display: table;
+    margin: 0 auto;
+    margin-bottom: 20px;
+}
+
+.phone i {
+    font-size: 30px;
+    color: whitesmoke;
+    background-color: lightpink;
+    text-align: center;
+    width: 60px;
+    padding: 5px;
+    border-radius: 10px;
+}
+
+.phoneHide {
+    color: black;
+    display: inline-block;
+    margin: 0 0 4px 5px;
+    transition: 1s;
+    /* background-color: skyblue; */
+}
+
+.phoneHide:hover {
+    color: #2CEC47;
+}
+
+a {
+    text-decoration: none;
+}
+
+.emailHide:hover {
+    color: #E73F58;
+}
